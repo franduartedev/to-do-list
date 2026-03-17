@@ -1,0 +1,80 @@
+body{
+    background-color: #2A7B9B;
+    
+    
+    font-family: "roboto",  sans-serif;
+}
+h1{
+    text-align: center;
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+color: white;
+padding: 20px 30px;
+border-radius: 5px;
+    
+
+}
+button{
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+color: white;
+border: none;
+padding: 20px 30px;
+cursor: pointer;
+border-radius: 5px;
+
+
+}
+input{
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:#2A7B9B;
+    color: white;
+    font-size: 20px;
+
+    
+}
+::placeholder{
+    color:#fff;
+    font-size: 20px;
+}
+li{
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+color: white;
+padding: 20px 30px;
+border-radius: 5px;
+list-style: none;
+margin: 10px 0;
+}
+.clear{
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+color: white;
+padding: 20px 30px;
+border-radius: 5px;
+list-style: none;
+margin: 10px 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.input {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 500px) {
+    .input {
+        flex-direction: column;
+    }
+
+    input, button {
+        width: 100%;
+    }
+}
